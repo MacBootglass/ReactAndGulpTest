@@ -52,7 +52,7 @@ gulp.task('minifyCSS', function () {
 
 
 gulp.task('minifyJS', function() {
-  return gulp.src(destination + '/ressources/scripts/build.js')
+  return gulp.src(destination + '/ressources/scripts/bundle.js')
     .pipe(plugins.uglify())
     .pipe(plugins.rename({
       suffix: '.min'

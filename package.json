@@ -1,5 +1,5 @@
 {
-  "name": "TestPAO",
+  "name": "testpao",
   "version": "0.0.0",
   "description": "test",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Théologien Thibault",
-  "license": "BSD",
+  "license": "UNLICENSED",
   "dependencies": {
     "babel-core": "~6.14.0",
     "babel-loader": "~6.2.5",
@@ -31,5 +31,13 @@
     "react-dom": "~15.3.1",
     "react-tap-event-plugin": "~1.0.0",
     "webpack": "~1.13.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MacBootglass/ReactAndGulpTest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MacBootglass/ReactAndGulpTest/issues"
+  },
+  "homepage": "https://github.com/MacBootglass/ReactAndGulpTest#readme"
 }
