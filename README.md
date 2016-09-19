@@ -1,5 +1,13 @@
 # ReactAndGulpTest
 Configuration de test ReactJS et Gulp
+
+## Prérequis
+- nodejs
+- npm
+- sass
+
+## Utilisation
+Configuration de test ReactJS et Gulp
 * npm install -> recupérer toutes les sources
 * gulp build -> compiler le projet
 * gulp prod -> minifier le projet
