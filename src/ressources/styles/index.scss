@@ -1,38 +1,44 @@
-html, body, #app {
-  width: 100%;
+// html, body, #app {
+//   width: 100%;
+//   height: 100%;
+//   margin: 0px;
+// }
+//
+// #test {
+//   position: relative;
+//   left: 500px;
+//   display: block;
+// }
+
+
+html {
   height: 100%;
+  padding: 0px;
   margin: 0px;
-}
 
-.TextField {
-  padding-left: 10%;
-  padding-right: 10%;
-  width:80%;
-}
+  body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: purple;
 
-.PartLeft {
-  position: relative;
-  display: inline-block;
-  width: 50%;
-  height: 100%;
-}
+    .englobant {
+      height: 100%;
+      padding: 0px;
+      margin: 0px;
+      background-color: orange;
 
-.PartRight {
-  position: relative;
-  display: inline-block;
-  width: 50%;
-  height: 100%;
-}
+      .content {
+        height: 80%;
+        background-color: blue;
+      }
+    }
 
-#myComponent {
-  margin-left: 15%;
-  margin-right: 15%;
-  height: 70%;
-  width: 70%;
-}
-
-#app:before, #app:after {
-  display: block;
-  height: 15%;
-  content: "";
+    .englobant:after, .englobant:before {
+      display: block;
+      background-color: green;
+      height: 10%;
+      content: "";
+    }
+  }
 }
