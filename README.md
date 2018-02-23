@@ -1,4 +1,6 @@
 # ReactAndGulpTest
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/MacBootglass/ReactAndGulpTest.svg)](https://greenkeeper.io/)
 Configuration de test ReactJS et Gulp
 
 ## Prérequis
